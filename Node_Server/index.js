@@ -5,7 +5,7 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 const {Schema} = mongoose;
 const server = express();
-
+const path = require('path');
 const url = "mongodb+srv://amolmathur2001:xJX6M2NoGswbD5TE@cluster0.c8hby4o.mongodb.net/AmolDB?retryWrites=true&w=majority";
 
 //connecting to the database 
